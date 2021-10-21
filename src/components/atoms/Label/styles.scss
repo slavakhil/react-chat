@@ -1,0 +1,52 @@
+%size {
+  color: #333333;
+}
+
+.size42bold {
+  @extend %size;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 51px;
+}
+.size27bold {
+  @extend %size;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 33px;
+}
+.size20bold {
+  @extend %size;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+.size15bold {
+  @extend %size;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+.size27 {
+  @extend %size;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 33px;
+}
+.size16 {
+  @extend %size;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.size15 {
+  @extend %size;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+.size13 {
+  @extend %size;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+}
