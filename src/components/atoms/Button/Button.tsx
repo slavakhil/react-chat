@@ -12,7 +12,7 @@ const Button: React.FC<IButton> = ({ value }) => {
   };
   return (
     <div>
-      <button id="buttonLogin" className="button-2" onClick={clickButton} disabled={flag}>
+      <button id="buttonLogin" className="buttonLogin" onClick={clickButton} disabled={flag}>
         {value}
       </button>
     </div>
